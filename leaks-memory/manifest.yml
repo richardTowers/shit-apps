@@ -1,0 +1,10 @@
+---
+applications:
+- name: broken-app-1
+  buildpacks:
+  - go_buildpack
+  memory: 64M
+  instances: 1
+  env:
+    GOPACKAGENAME: brokenapp1
+
